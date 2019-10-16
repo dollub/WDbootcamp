@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+<h1>Register</h1>
+
+<form>
+	<label for="firstname">First Name:</label>
+	<input type="text" placeholder="John" id="firstname" name="firstName" required>
+	<label for="lastname">Last Name:</label>
+	<input type="text" placeholder="Smith" id="lastname" name="lastName" required>
+	<br>
+
+	<label for="email">Email:</label>
+	<input type="email" placeholder="email" id="email" name="email" required>
+	<label for="password">Password:</label>
+	<input type="password" placeholder="password" id="password" name="password" minlength="5" maxlength="10" required>
+	<br>
+	
+	<label for="male">Male</label>
+	<input type="radio" name="gender" id ="male" name="gender" value ="male">
+	<label for="female">Female</label>
+	<input type="radio" name="gender" id ="female" name="gender" value = "female">
+	<label for="other">Other</label>
+	<input type="radio" name="gender" id ="other" name="gender" value="other">
+	
+	<br>
+	<label for="birthday">Birthday</label>
+	<select name = "Month">
+		<option value="1">Jan</option>
+		<option value="2">Feb</option>
+		<option value="3">Mar</option>
+		<option value="4">Apr</option>
+		<option value="5">May</option>
+		<option value="6">Jun</option>
+		<option value="7">Jul</option>
+		<option value="8">Aug</option>
+		<option value="9">Sep</option>
+		<option value="10">Oct</option>
+		<option value="11">Nov</option>
+		<option value="12">Dec</option>
+	</select>
+		<select name = "Day">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">Other LOL</option>
+	</select>
+		<select name = "year">
+		<option value="1">1990</option>
+		<option value="2">1991</option>
+		<option value="3">1992</option>
+		<option value="4">1993</option>
+	</select>
+	<br>
+	<label for="checkbox">I agree to the terms and conditions</label>
+	<input type="checkbox" name="checkbox" id="checkbox">
+	<br>
+	<button>Submit</button>	
+</form>
+file:///C:/Users/Dolly/Documents/Learning/Programming/WD%20Bootcamp/Section4/formexercise.html?firstName=test&lastName=test&email=test%40gmail.com&password=test&gender=other&Month=1&Day=1&year=1&yes=on
+</body>
+</html>

@@ -1,0 +1,17 @@
+h1 {
+	color: #F42069;
+	/*border-color: purple;
+	border-width: 5px;
+	border-style: solid;*/
+	border: 1px solid purple;
+}
+h4 {
+	color: #b4da55;
+	background: rgb(255, 100, 80);
+}
+
+body {
+	/*background: url(https://cdn.shopify.com/s/files/1/2253/1085/products/wood_shirt_ps_art_9a6a0c20-9490-4e23-98e6-d0a0f0cbe1d8_800x.png?v=1564608832);
+	background-size: cover;*/
+	background: pink;
+}

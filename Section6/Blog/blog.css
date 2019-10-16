@@ -1,0 +1,51 @@
+body {
+	max-width: 700px;
+	margin: 20px auto;
+	border: 20px solid #bdc2c7;
+	font-size: 12px;
+	padding: 20px;
+}
+
+.date {
+ 	text-transform: uppercase;
+ 	color: #3498db;
+ 	font-weight: bold;
+ 	letter-spacing: 1rem;
+}
+
+p {
+	/*padding-left: 20px;
+	padding-right: 20px;
+*/	font-size: 1.5em;
+	font-weight: 300;
+}
+
+* {
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h2 {
+	color: #2c3e50;
+/*	padding-left: 20px;
+	padding-right: 20px;*/
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.quote {
+	/*padding-left:0px;
+	padding-right:0px;
+*/	border-left: 10px solid #bdc2c7;
+	/*margin-left: 20px;
+	margin-right: 20px;*/
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.post {
+	margin-bottom: 20px;
+}

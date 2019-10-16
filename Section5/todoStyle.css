@@ -1,0 +1,16 @@
+/*body {
+	background: orange;
+}
+*/
+li {
+	border: 2px solid red;
+}
+
+#special {
+	color:yellow;
+	/*background-color: pink;*/
+}
+
+.highlight {
+	text-decoration: line-through;
+}
